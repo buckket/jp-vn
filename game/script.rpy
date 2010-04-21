@@ -5,12 +5,17 @@ init:
     # eg. image eileen happy = "eileen_happy.png"
 
     # Declare characters used by this game.
-    $ e = Character('Eileen', color="#c8ffc8")
+    $ mchar = Character('Mödchen', color="#c8ffc8")
+    $ jchar = Character('Junge', color="#c8ffc8")
 
 
 # The game starts here.
 label start:
 
-    e "You've created a new Ren'Py game."
-
-    e "Once you add a story, pictures, and music, you can release it to the world!"
+    # Dinge die gemacht werden müssen, bevor das erste Kapitel
+    # anfängt, kommen hier rein.
+    
+    # Danach Sprung zum ersten Kapitel, zu finden in
+    # kapitel_1.rpy
+    
+    jump kapitel_1
