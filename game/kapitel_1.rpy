@@ -10,7 +10,7 @@
     "Nein, eigentlich war es eine nutzlose Woche."
     "Nichts Spannendes war passiert, und alles, was _mc blieb, war an ihrem Fenster zu stehen, und den Regen zu beobachten, oder ihrem Onkel beim Arbeiten zuzusehen."
     "Doch für ein Mädchen wie _mc war beides nicht akzeptabel."
-    "Sie war es gewohnt, durch die Stadt zu streifen, oder durch den Wald, immer auf der Suche nach Abenteuern."
+    "Sie war es gewohnt, durch die Stadt, den Wald oder gar den Hafen zu streifen, immer auf der Suche nach Abenteuern."
     "Aber auch heute Abend drohte dieser Tag wieder ereignislos zu enden."
     
     mchar "Langweilig..."
@@ -26,7 +26,7 @@
     
     "_mcs Interesse war geweckt."
     "Sollte etwa doch noch etwas passieren?"
-    "Neugierig beobachtete _mc, wie der Junge sich unter einem Busch neben dem Gartentor zusammenkauerte."
+    "Neugierig beobachtete _mc, wie ein Junge sich unter einem Busch neben dem Gartentor zusammenkauerte."
     
     # Mödchen wird ausgeblendet, man sieht durchs Fenster, wie sie im Garten steht.
     # Evtl. sollte man das hier anders machen. Das ist schwer umzusetzen.
@@ -36,7 +36,7 @@
     "Der Junge schaute sie mit großen Augen an."
     
     mchar "Du bist ja ganz nass!"
-    mchar "Und was machst du in meinem Garten?"
+    mchar "Und was machst du in unserem Garten?"
     
     jchar "Ich... ich wollte hier schlafen."
     
@@ -65,7 +65,7 @@
     mchar "Hier, damit kannst du dich abtrocknen."
     
     "_mc reichte ihm ein Handtuch, das sie auf dem Weg in ihr Zimmer mitgenommen hatte."
-    "Ihrem Onkel würde es erst einmal nichts erzählen."
+    "Ihrem Onkel würde sie erst einmal nichts erzählen."
     "Er war sowieso zu sehr mit seiner Forscherei beschäftigt."
     
     mchar "Woher kommst du überhaupt?"
@@ -92,7 +92,7 @@
     "Verwirrt schaute er sich um."
     "Man sah ihm die Strapazen der letzten Tage deutlich an."
     "Schnell bemerkte er, dass dies kein gewöhnliches Mädchenzimmer war."
-    "Lauter komische Dinge und Geräte lagen herum und ordentlich war es auch nicht."
+    "Lauter merkwürdige Dinge und Geräte lagen herum und ordentlich war es auch nicht."
     "Überhaupt nicht das, was man von einem Mädchenzimmer erwartet."
     "Er wurde durch ein schleifendes Geräusch im Flur abgelenkt."
     
