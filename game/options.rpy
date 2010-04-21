@@ -29,8 +29,8 @@ init -1 python hide:
     ## Zeichen getrennt. Das 'images'-Verzeichnis wird ignoriert.
     ## Beispiel: 'images/hurr/durr.png' wird zu 'hurr durr'
     
-    config.automatic_images = [' ','_','/']
-    config.automatic_images.strip = ['images']
+    config.automatic_images = [' ','/']
+    config.automatic_images_strip = ['images']
 
     #########################################
     # Layouts

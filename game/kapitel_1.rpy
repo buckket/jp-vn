@@ -1,6 +1,8 @@
 ﻿label kapitel_1:
 
     # Zimmer am Abend
+    scene bg zimmer_nacht
+    with fade
     # Hintergrundmusik
     # Regentropfen
     
