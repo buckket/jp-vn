@@ -5,8 +5,10 @@ init:
     # eg. image eileen happy = "eileen_happy.png"
 
     # Declare characters used by this game.
-    $ mchar = Character('Mödchen', color="#c8ffc8")
-    $ jchar = Character('Junge', color="#c8ffc8")
+    $ mchar = Character('Mödchen', kind=nvl, color="#c8ffc8")
+    $ jchar = Character('Junge', kind=nvl, color="#c8ffc8")
+    $ narrator = Character(None, kind=nvl)
+    $ q = Character(None, kind=nvl, what_prefix='"',what_suffix='"')
 
 
 # The game starts here.

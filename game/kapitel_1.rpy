@@ -15,16 +15,18 @@
     "Sie war es gewohnt, durch die Stadt, den Wald oder gar den Hafen zu streifen, immer auf der Suche nach Abenteuern."
     "Aber auch heute Abend drohte dieser Tag wieder ereignislos zu enden."
     
-    mchar "Langweilig..."
+    q "Langweilig..."
     
     # Wie hier dargestellt wird, dass sie zum Fenster geht, überlegen wir lieber nochmal.
     
-    mchar "Regen, nichts als Regen..."
+    q "Regen, nichts als Regen..."
     
     # Junge erscheint am Gartentor.
     
-    mchar "Oh..."
-    mchar "Wer ist das?"
+    q "Oh..."
+    q "Wer ist das?"
+    
+    nvl clear
     
     "_mcs Interesse war geweckt."
     "Sollte etwa doch noch etwas passieren?"
@@ -33,64 +35,75 @@
     # Mödchen wird ausgeblendet, man sieht durchs Fenster, wie sie im Garten steht.
     # Evtl. sollte man das hier anders machen. Das ist schwer umzusetzen.
     
-    mchar "Hey, was machst du hier?"
+    nvl clear
+    
+    q "Hey, was machst du hier?"
     
     "Der Junge schaute sie mit großen Augen an."
     
-    mchar "Du bist ja ganz nass!"
-    mchar "Und was machst du in unserem Garten?"
+    q "Du bist ja ganz nass!"
+    q "Und was machst du in unserem Garten?"
     
-    jchar "Ich... ich wollte hier schlafen."
+    q "Ich... ich wollte hier schlafen."
     
-    mchar "Bei diesem Wetter willst du draußen schlafen?"
-    mchar "Davon wirst du doch krank!"
+    q "Bei diesem Wetter willst du draußen schlafen?"
+    q "Davon wirst du doch krank!"
     
-    jchar "..."
+    q "..."
     
-    mchar "Warum sagt du denn nichts?"
-    mchar "Kannst du nirgendwo hin?"
+    q "Warum sagt du denn nichts?"
+    q "Kannst du nirgendwo hin?"
     
     "Traurig schüttelte der Junge seinen Kopf."
     
-    mchar "Komm mit!"
+    nvl clear
     
-    jchar "Was?"
+    q "Komm mit!"
     
-    mchar "Du schläfst heute Nacht bei mir."
+    q "Was?"
     
-    jchar "Aber ich will nicht!"
+    q "Du schläfst heute Nacht bei mir."
     
-    mchar "Du willst also lieber hier draußen frieren und nass werden?"
+    q "Aber ich will nicht!"
+    
+    q "Du willst also lieber hier draußen frieren und nass werden?"
+    
+    nvl clear
     
     # Zimmer
     
-    mchar "Hier, damit kannst du dich abtrocknen."
+    q "Hier, damit kannst du dich abtrocknen."
     
     "_mc reichte ihm ein Handtuch, das sie auf dem Weg in ihr Zimmer mitgenommen hatte."
     "Ihrem Onkel würde sie erst einmal nichts erzählen."
     "Er war sowieso zu sehr mit seiner Forscherei beschäftigt."
     
-    mchar "Woher kommst du überhaupt?"
+    q "Woher kommst du überhaupt?"
     
-    jchar "Warum willst du das wissen?"
+    q "Warum willst du das wissen?"
     
-    mchar "Vielleicht weil du meinetwegen nicht draußen schlafen musst?"
+    q "Vielleicht weil du meinetwegen nicht draußen schlafen musst?"
     #Im Original war das "wegen mir", aber das ist falsch. :3
     
-    jchar "..."
+    q "..."
     
-    mchar "Du sprichst wohl auch nicht oft, oder?"
+    q "Du sprichst wohl auch nicht oft, oder?"
     
-    jchar "Nein."
+    q "Nein."
+    
+    nvl clear
     
     "Verärgert holte _mc zwei Decken aus ihrem Schrank."
     
-    mchar "Hier."
-    mchar "Wie heißt du überhaupt?"
+    q "Hier."
+    q "Wie heißt du überhaupt?"
     
-    jchar "_jc."
+    q "_jc."
     
     "_mc rauschte wieder aus ihrem Zimmer und ließ _jc allein."
+    
+    nvl clear
+    
     "Verwirrt schaute er sich um."
     "Man sah ihm die Strapazen der letzten Tage deutlich an."
     "Schnell bemerkte er, dass dies kein gewöhnliches Mädchenzimmer war."
@@ -98,6 +111,5 @@
     "Überhaupt nicht das, was man von einem Mädchenzimmer erwartet."
     "Er wurde durch ein schleifendes Geräusch im Flur abgelenkt."
     
-    mchar "Hier, darauf sollte es einigermaßen bequem sein."
-    
+    q "Hier, darauf sollte es einigermaßen bequem sein."
     
