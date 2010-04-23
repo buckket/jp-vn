@@ -33,6 +33,9 @@
     # Mödchen wird ausgeblendet, man sieht durchs Fenster, wie sie im Garten steht.
     # Evtl. sollte man das hier anders machen. Das ist schwer umzusetzen.
     
+    scene bg garten
+    with fade
+    
     mchar "Hey, was machst du hier?"
     
     "Der Junge schaute sie mit großen Augen an."
@@ -63,6 +66,9 @@
     mchar "Du willst also lieber hier draußen frieren und nass werden?"
     
     # Zimmer
+    
+    scene bg zimmer_nacht
+    with fade
     
     mchar "Hier, damit kannst du dich abtrocknen."
     
