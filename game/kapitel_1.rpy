@@ -3,6 +3,7 @@
     # Zimmer am Abend
     scene bg zimmer_nacht
     with fade
+    
     # Hintergrundmusik
     # Regentropfen
     
@@ -34,6 +35,7 @@
     # Evtl. sollte man das hier anders machen. Das ist schwer umzusetzen.
     
     scene bg garten
+    show regen
     with fade
     
     mchar "Hey, was machst du hier?"

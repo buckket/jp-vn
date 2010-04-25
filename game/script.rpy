@@ -7,7 +7,12 @@ init:
     # Declare characters used by this game.
     $ mchar = Character('Mödchen', color="#c8ffc8")
     $ jchar = Character('Junge', color="#c8ffc8")
-
+    
+    image regen = Animation("images/regen/1.png", 0.1,
+                        "images/regen/2.png", 0.1,
+                        "images/regen/3.png", 0.1,
+                        "images/regen/4.png", 0.1)
+                        
 # The game starts here.
 label start:
 
