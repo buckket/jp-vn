@@ -62,4 +62,97 @@
     
     nvl clear
     
-    #Bis hierhin erstmal.
+    "Während sie die Treppe herunterlief, immer zwei Stufen auf ein Mal nehmend, schossen ihr die merkwürdigsten Ideen darüber, wer oder was dort unten sein könnte, durch den Kopf."
+    "Wenn sie die Größe richtig eingeschätzt hatte, war es unmöglich ein erwachsener Mensch, und auch kein Wildschwein oder etwas in der Art."
+    "Es musste also irgendetwas anderes sein, aber was?"
+    "Ein Kind war auszuschließen."
+    "In dieser Stadt gab es zwar viele Kinder, aber die lebten unten in den ärmeren Vierteln und hatten zu dieser Uhrzeit besseres zu tun, als irgendwo im Hinterhof einer Villa herumzugeistern."
+    "Außer vielleicht um etwas zu stehlen."
+    
+    nvl clear
+    
+    "Das musste es sein!"
+    "Es war ein Dieb, was sonst?"
+    "Liz wusste, dass dies ihre Gelegenheit war, den Dieb zu fangen, und ihrem Onkel zu beweisen, dass sie alt genug war, um auf sich selbst aufzupassen."
+    "Doch wie würde sie das anstellen?"
+    "Sie war schon an der Hintertür zum Garten, eigentlich der Dienstboteneingang, doch seit ihr Onkel alle Bediensteten entlassen hatte, um seine Ruhe zu haben, hatte ihn niemand außer Liz benutzt, als sie stehen blieb, und sich Gedanken darüber machte, wie sie den Dieb aufhalten würde."
+    "Ein Kind könnte sie eventuell überwältigen, aber was, wenn sie sich in der Größe verschätzt hatte, und es ein Erwachsener war?"
+    "Sie sah sich nach einer Waffe oder etwas, was man als solche benutzen könnte um, und griff nach dem Besen der neben der Tür lehnte."
+    "Damit sollte es gehen."
+    
+    nvl clear
+    
+    #Garten
+    #mit Übergang von Links nach Rechts
+    #Regen
+    #leises öffnen der Tür als Geräusch
+    
+    "Leise und vorsichtig öffnete sie die Tür und spähte in den Garten, doch nicht viel war zu sehen."
+    "Den Besen mit der linken Hand umklammernd, machte sie einen Schritt nach draußen, doch wich sofort wieder zurück."
+    "Der Regen war inzwischen stärker geworden, und sie hatte nicht damit gerechnet."
+    "Aber da musste sie nun durch."
+    "Sie nahm sich zusammen und trat aus dem Haus in den Garten."
+    
+    nvl clear
+    
+    "Der Teil des Gartens, in dem sie sich befand, war auf der Hinterseite des Hauses gelegen, und nicht sonderlich gut gepflegt, wobei auch die Vorderseite nicht mehr wirklich ansprechend aussah, seitdem kein Gärtner mehr kam."
+    "Liz spähte angestrengt in die Richtung, in die der Dieb verschwunden war, aber konnte nichts erkennen."
+    "Die Lampe über dem kleinen Gartentor erleuchtete nur den vordersten Teil des Weges und half nicht wirklich, also musste sich Liz vollständig auf die Anpassungsfähigkeit ihrer Augen verlassen, um in der Dunkelheit etwas zu erkennen."
+    "Sie starrte weiter in die Ecke, in die der mysteriöse Schatten verschwunden war, als sie ein unerwartetes Rascheln hinter sich vernahm und, bereit dem Dieb entgegenzutreten, herumwirbelte."
+    
+    nvl clear
+    
+    "Einem ungeübten Betrachter wäre wahrscheinlich nichts besonderes aufgefallen, aber Liz' hoher Auffassungsgabe konnte man so leicht nicht entkommen."
+    "Zielsicher schritt sie, den Besen mit beiden Händen umklammernd, auf den Busch zu, dessen Zweige sich stärker bewegten, als die der anderen."
+    "Sicherlich musste der Dieb dahinter oder darin sitzen."
+    "Aber das bedeutete auch, dass er sie schon gesehen hatte, denn sonst wäre er nicht vor ihr geflohen."
+    "Ihren geplanten Überraschungsangriff wollte sie grade vergessen, als ihr eine Idee kam."
+    
+    nvl clear
+    
+    q "War wohl doch nur irgendein Tier."
+    "Sie sprach absichtlich laut und deutlich, als sie den Weg zurück ins Haus antrat."
+    "Die länge des Besens und ihre Entfernung zum Busch abschätzend, machte sie drei Schritte in Richtung des Hauses."
+    "Anstatt einen vierten Schritt zu machen, wirbelte sie, ihre gesamte, durch die Bewegung aufgebaute, Körperspannung entladen, und den Besen mit einer Hand am äußersten Ende fassend, herum."
+    "Mit der vollen Wucht ihrer Drehung, verstärkt durch die länge ihrer Waffe, schlug der Besenstiel in den Busch ein."
+    
+    nvl clear
+    
+    "Sie spürte den Widerstand, als ihre improvisierte Waffe gegen etwas hartes stieß, und zog sie zurück, um noch einmal zuzuschlagen, doch sie hielt inne, als sie ein leises Schluchzen vernahm, dass aus dem Busch zu ihr hervordrang."
+    "Jetzt bezweifelte sie plötzlich, dass das eine gute Idee war."
+    "Was, wenn sie jemanden unschuldiges ernsthaft verletzt hatte?"
+    "Sie ging auf den Busch zu und fragte zögernd: \"A-Alles in Ordnung?\""
+    "Keine Antwort. {w}Nur weiteres Schluchzen kam aus dem Busch."
+    "Als sie sich dem Busch weiter näherte frage sie noch einmal."
+    q "Ähm... ist alles in Ordnung?"
+    "Noch immer keine Antwort."
+    "Liz blieb stehen."
+    q "Ich wollte wirklich nicht so fest hauen, es tut mir Leid."
+    "Das Schluchzen hörte auf und Liz ging ein Stück näher heran."
+    
+    nvl clear
+    
+    "Neugierig beugte sie sich über den Busch, als ein Kopf zwischen den Ästen hervorschoss."
+    "Erschrocken wich sie zurück, und betrachtete den Besucher."
+    #Hier eine Beschreibung des Jungen, der mit Tränen auf den Wangen, aber ziemlich wütend aus dem Gebüsch tritt. Sie folgt, wenn shi Bilder des Jungen liefert. ^_^
+    "Der Junge blickte sie wutentbrannt an."
+    q "Was bist du denn für eine, dass du einfach Leute mit Stöcken schlägst? {w}Hast du eine Ahnung, wie weh das tat?!"
+    "Das war absolut nicht das, was Liz erwartet hatte."
+    "Sie hatte damit gerechnet, dass er sich ergeben, und dass sie ihn der Polizei melden würde, denn schließlich war er ein Dieb, aber so, wie er nun vor ihr stand, verhielt er sich nicht, wie sich jemand in seiner Situation verhalten sollte."
+    q "Du bist doch selbst Schuld!{w} Was schleichst du auch spät Abends bei anderen Leuten im Garten herum?"
+    "Was bildete er sich ein?"
+    "Dies war ihr Haus, und er war ein Eindringling, spielte sich aber auf als wäre es umgekehrt."
+    q "Das gibt dir noch lange nicht das Recht, mich beinahe ohnmächtig zu schlagen!"
+    
+    nvl clear
+    
+    "Liz konnte nicht glauben, wie frech ihr nächtlicher Besucher war."
+    q "Für einen miesen Dieb bist du ganz schön vorlaut.{w} In deiner Situation wäre ich lieber etwas ruhiger und kooperativer."
+    "Sie klammerte beide Hände um den Besenstiel."
+    q "E-Ein Dieb!?{w} Ich bin kein Dieb!"
+    "Sie machte sich bereit, ein weiteres Mal auszuholen, falls er versuchen würde, sie anzugreifen oder zu fliehen."
+    q "Ach? Und was machst du dann mitten in der Nacht in meinem Garten?"
+    "Er schaute auf den Boden und knirschte mit den Zähnen."
+    "Liz ließ ihn nicht aus den Augen."
+    q "Ich warte auf deine Antwort.{w} Wenn du mir erklären kannst, was du hier treibst, dann lasse ich dich gehen."
+    q "I-Ich...{w} wollte hier schlafen..."
