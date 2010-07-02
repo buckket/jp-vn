@@ -7,10 +7,14 @@ init:
     $ narrator = Character(None, kind=nvl)
     $ q = Character(None, kind=nvl, what_prefix='"',what_suffix='"')
     
+    image black = Solid((0,0,0,255))
+    
     image regen = Animation("images/regen/1.png", 0.1,
                         "images/regen/2.png", 0.1,
                         "images/regen/3.png", 0.1,
                         "images/regen/4.png", 0.1)
+
+    $ trans_diagonal = ImageDissolve("images/effects/trans_diagonal.png", 0.2, 8, reverse=True)
 
     python:
         #Diese Funktion wechselt den Erzählmodus.

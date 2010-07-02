@@ -118,7 +118,21 @@
     "Sie sprach absichtlich laut und deutlich, als sie den Weg zurück ins Haus antrat."
     "Die länge des Besens und ihre Entfernung zum Busch abschätzend, machte sie drei Schritte in Richtung des Hauses."
     "Anstatt einen vierten Schritt zu machen, wirbelte sie, ihre gesamte, durch die Bewegung aufgebaute, Körperspannung entladen, und den Besen mit einer Hand am äußersten Ende fassend, herum."
+    
+    scene black
+    with None
+    
+    show effects strike
+    with trans_diagonal
+    
+    hide effects strike
+    with dissolve
+    
     "Mit der vollen Wucht ihrer Drehung, verstärkt durch die länge ihrer Waffe, schlug der Besenstiel in den Busch ein."
+    
+    scene bg garten
+    with vpunch
+    
     "Sie spürte den Widerstand, als ihre improvisierte Waffe gegen etwas hartes stieß, und zog sie zurück, um noch einmal zuzuschlagen, doch sie hielt inne, als sie ein leises Schluchzen vernahm, dass aus dem Busch zu ihr hervordrang."
     "Jetzt bezweifelte sie plötzlich, dass das eine gute Idee war."
     "Was, wenn sie jemanden unschuldiges ernsthaft verletzt hatte?"
