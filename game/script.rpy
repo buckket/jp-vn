@@ -2,8 +2,8 @@
 
 init:
 
-    $ mchar = Character('Mödchen', kind=nvl, color="#c8ffc8")
-    $ jchar = Character('Junge', kind=nvl, color="#c8ffc8")
+    $ m = Character('Mödchen',color="#c8ffc8")
+    $ j = Character('Junge',color="#c8ffc8")
     $ narrator = Character(None, kind=nvl)
     $ q = Character(None, kind=nvl, what_prefix='"',what_suffix='"')
     

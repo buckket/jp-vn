@@ -119,7 +119,7 @@
     
     nvl clear
     
-    q "War wohl doch nur irgendein Tier."
+    m "War wohl doch nur irgendein Tier."
     "Sie sprach absichtlich laut und deutlich, als sie den Weg zurück ins Haus antrat."
     "Die länge des Besens und ihre Entfernung zum Busch abschätzend, machte sie drei Schritte in Richtung des Hauses."
     "Anstatt einen vierten Schritt zu machen, wirbelte sie, ihre gesamte, durch die Bewegung aufgebaute, Körperspannung entladen, und den Besen mit einer Hand am äußersten Ende fassend, herum."
@@ -133,10 +133,10 @@
     "Sie ging auf den Busch zu und fragte zögernd: \"A-Alles in Ordnung?\""
     "Keine Antwort. {w}Nur weiteres Schluchzen kam aus dem Busch."
     "Als sie sich dem Busch weiter näherte frage sie noch einmal."
-    q "Ähm... ist alles in Ordnung?"
+    m "Ähm... ist alles in Ordnung?"
     "Noch immer keine Antwort."
     "Liz blieb stehen."
-    q "Ich wollte wirklich nicht so fest hauen, es tut mir Leid."
+    m "Ich wollte wirklich nicht so fest hauen, es tut mir Leid."
     "Das Schluchzen hörte auf und Liz ging ein Stück näher heran."
     
     nvl clear
@@ -145,26 +145,26 @@
     "Erschrocken wich sie zurück, und betrachtete den Besucher."
     #Hier eine Beschreibung des Jungen, der mit Tränen auf den Wangen, aber ziemlich wütend aus dem Gebüsch tritt. Sie folgt, wenn shi Bilder des Jungen liefert. ^_^
     "Der Junge blickte sie wutentbrannt an."
-    q "Was bist du denn für eine, dass du einfach Leute mit Stöcken schlägst? {w}Hast du eine Ahnung, wie weh das tat?!"
+    j "Was bist du denn für eine, dass du einfach Leute mit Stöcken schlägst? {w}Hast du eine Ahnung, wie weh das tat?!"
     "Das war absolut nicht das, was Liz erwartet hatte."
     "Sie hatte damit gerechnet, dass er sich ergeben, und dass sie ihn der Polizei melden würde, denn schließlich war er ein Dieb, aber so, wie er nun vor ihr stand, verhielt er sich nicht, wie sich jemand in seiner Situation verhalten sollte."
-    q "Du bist doch selbst Schuld!{w} Was schleichst du auch spät Abends bei anderen Leuten im Garten herum?"
+    m "Du bist doch selbst Schuld!{w} Was schleichst du auch spät Abends bei anderen Leuten im Garten herum?"
     "Was bildete er sich ein?"
     "Dies war ihr Haus, und er war ein Eindringling, spielte sich aber auf als wäre es umgekehrt."
-    q "Das gibt dir noch lange nicht das Recht, mich beinahe ohnmächtig zu schlagen!"
+    j "Das gibt dir noch lange nicht das Recht, mich beinahe ohnmächtig zu schlagen!"
     
     nvl clear
     
     "Liz konnte nicht glauben, wie frech ihr nächtlicher Besucher war."
-    q "Für einen miesen Dieb bist du ganz schön vorlaut.{w} In deiner Situation wäre ich lieber etwas ruhiger und kooperativer."
+    m "Für einen miesen Dieb bist du ganz schön vorlaut.{w} In deiner Situation wäre ich lieber etwas ruhiger und kooperativer."
     "Sie klammerte beide Hände um den Besenstiel."
-    q "E-Ein Dieb!?{w} Ich bin kein Dieb!"
+    j "E-Ein Dieb!?{w} Ich bin kein Dieb!"
     "Sie machte sich bereit, ein weiteres Mal auszuholen, falls er versuchen würde, sie anzugreifen oder zu fliehen."
-    q "Ach? Und was machst du dann mitten in der Nacht in meinem Garten?"
+    m "Ach? Und was machst du dann mitten in der Nacht in meinem Garten?"
     "Er schaute auf den Boden und knirschte mit den Zähnen."
     "Liz ließ ihn nicht aus den Augen."
-    q "Ich warte auf deine Antwort.{w} Wenn du mir erklären kannst, was du hier treibst, dann lasse ich dich gehen."
-    q "I-Ich...{w} wollte hier schlafen..."
+    m "Ich warte auf deine Antwort.{w} Wenn du mir erklären kannst, was du hier treibst, dann lasse ich dich gehen."
+    j "I-Ich...{w} wollte hier schlafen..."
 
     
     nvl clear
