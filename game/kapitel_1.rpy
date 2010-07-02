@@ -4,6 +4,8 @@
     scene bg zimmer_nacht
     with fade
     
+    $ renpy.pause(1)
+    
     # Hintergrundmusik
     # Regentropfen
     
@@ -91,6 +93,8 @@
     scene bg garten
     show regen
     with fade
+    
+    $ renpy.pause(1)
     
     "Leise und vorsichtig öffnete sie die Tür und spähte in den Garten, doch nicht viel war zu sehen."
     "Den Besen mit der linken Hand umklammernd, machte sie einen Schritt nach draußen, doch wich sofort wieder zurück."
