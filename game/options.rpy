@@ -128,7 +128,20 @@ init -1 python hide:
     ## and padding.
 
     # style.window.yminimum = 250
-
+    
+    style.menu_choice_button.background = "images/ui/menu/grey.png"
+    style.menu_choice_button.hover_background = Animation("images/ui/menu/1.png", 0.10,
+                                 "images/ui/menu/2.png", 0.10,
+                                 "images/ui/menu/3.png", 0.10,
+                                 "images/ui/menu/4.png", 0.10,
+                                 "images/ui/menu/5.png", 0.10)
+    
+    style.menu_choice_button.xminimum = 500
+    style.menu_choice_button.xmaximum = 500
+    style.menu_choice_button.yminimum = 108
+    style.menu_choice_button.ymaximum = 108
+    
+    style.menu_choice.yalign = 0.4
 
     #########################################
     ## This lets you change the placement of the main menu.

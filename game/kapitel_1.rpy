@@ -3,6 +3,7 @@
     # Zimmer am Abend
     scene bg zimmer_nacht
     with fade
+    
     # Hintergrundmusik
     # Regentropfen
     
@@ -87,6 +88,10 @@
     #Regen
     #leises öffnen der Tür als Geräusch
     
+    scene bg garten
+    show regen
+    with fade
+    
     "Leise und vorsichtig öffnete sie die Tür und spähte in den Garten, doch nicht viel war zu sehen."
     "Den Besen mit der linken Hand umklammernd, machte sie einen Schritt nach draußen, doch wich sofort wieder zurück."
     "Der Regen war inzwischen stärker geworden, und sie hatte nicht damit gerechnet."
@@ -156,3 +161,6 @@
     "Liz ließ ihn nicht aus den Augen."
     q "Ich warte auf deine Antwort.{w} Wenn du mir erklären kannst, was du hier treibst, dann lasse ich dich gehen."
     q "I-Ich...{w} wollte hier schlafen..."
+
+    
+    nvl clear
