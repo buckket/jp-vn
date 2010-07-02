@@ -11,6 +11,8 @@
     
     # Los geht's!
     
+    $ setMode("nvl")
+    
     "Liz saß an ihrem Fenster und starrte in den Regen hinaus."
     "Sie hasste den Regen."
     "Nein, eigentlich hasste sie nicht den Regen, sondern nur die Umstände, die er mit sich brachte."
@@ -96,37 +98,27 @@
     
     $ renpy.pause(1)
     
+    $ setMode("normal")
+    
     "Leise und vorsichtig öffnete sie die Tür und spähte in den Garten, doch nicht viel war zu sehen."
     "Den Besen mit der linken Hand umklammernd, machte sie einen Schritt nach draußen, doch wich sofort wieder zurück."
     "Der Regen war inzwischen stärker geworden, und sie hatte nicht damit gerechnet."
     "Aber da musste sie nun durch."
-    "Sie nahm sich zusammen und trat aus dem Haus in den Garten."
-    
-    nvl clear
-    
+    "Sie nahm sich zusammen und trat aus dem Haus in den Garten."    
     "Der Teil des Gartens, in dem sie sich befand, war auf der Hinterseite des Hauses gelegen, und nicht sonderlich gut gepflegt, wobei auch die Vorderseite nicht mehr wirklich ansprechend aussah, seitdem kein Gärtner mehr kam."
     "Liz spähte angestrengt in die Richtung, in die der Dieb verschwunden war, aber konnte nichts erkennen."
     "Die Lampe über dem kleinen Gartentor erleuchtete nur den vordersten Teil des Weges und half nicht wirklich, also musste sich Liz vollständig auf die Anpassungsfähigkeit ihrer Augen verlassen, um in der Dunkelheit etwas zu erkennen."
     "Sie starrte weiter in die Ecke, in die der mysteriöse Schatten verschwunden war, als sie ein unerwartetes Rascheln hinter sich vernahm und, bereit dem Dieb entgegenzutreten, herumwirbelte."
-    
-    nvl clear
-    
     "Einem ungeübten Betrachter wäre wahrscheinlich nichts besonderes aufgefallen, aber Liz' hoher Auffassungsgabe konnte man so leicht nicht entkommen."
     "Zielsicher schritt sie, den Besen mit beiden Händen umklammernd, auf den Busch zu, dessen Zweige sich stärker bewegten, als die der anderen."
     "Sicherlich musste der Dieb dahinter oder darin sitzen."
     "Aber das bedeutete auch, dass er sie schon gesehen hatte, denn sonst wäre er nicht vor ihr geflohen."
     "Ihren geplanten Überraschungsangriff wollte sie grade vergessen, als ihr eine Idee kam."
-    
-    nvl clear
-    
     m "War wohl doch nur irgendein Tier."
     "Sie sprach absichtlich laut und deutlich, als sie den Weg zurück ins Haus antrat."
     "Die länge des Besens und ihre Entfernung zum Busch abschätzend, machte sie drei Schritte in Richtung des Hauses."
     "Anstatt einen vierten Schritt zu machen, wirbelte sie, ihre gesamte, durch die Bewegung aufgebaute, Körperspannung entladen, und den Besen mit einer Hand am äußersten Ende fassend, herum."
     "Mit der vollen Wucht ihrer Drehung, verstärkt durch die länge ihrer Waffe, schlug der Besenstiel in den Busch ein."
-    
-    nvl clear
-    
     "Sie spürte den Widerstand, als ihre improvisierte Waffe gegen etwas hartes stieß, und zog sie zurück, um noch einmal zuzuschlagen, doch sie hielt inne, als sie ein leises Schluchzen vernahm, dass aus dem Busch zu ihr hervordrang."
     "Jetzt bezweifelte sie plötzlich, dass das eine gute Idee war."
     "Was, wenn sie jemanden unschuldiges ernsthaft verletzt hatte?"
@@ -138,9 +130,6 @@
     "Liz blieb stehen."
     m "Ich wollte wirklich nicht so fest hauen, es tut mir Leid."
     "Das Schluchzen hörte auf und Liz ging ein Stück näher heran."
-    
-    nvl clear
-    
     "Neugierig beugte sie sich über den Busch, als ein Kopf zwischen den Ästen hervorschoss."
     "Erschrocken wich sie zurück, und betrachtete den Besucher."
     #Hier eine Beschreibung des Jungen, der mit Tränen auf den Wangen, aber ziemlich wütend aus dem Gebüsch tritt. Sie folgt, wenn shi Bilder des Jungen liefert. ^_^
@@ -152,9 +141,6 @@
     "Was bildete er sich ein?"
     "Dies war ihr Haus, und er war ein Eindringling, spielte sich aber auf als wäre es umgekehrt."
     j "Das gibt dir noch lange nicht das Recht, mich beinahe ohnmächtig zu schlagen!"
-    
-    nvl clear
-    
     "Liz konnte nicht glauben, wie frech ihr nächtlicher Besucher war."
     m "Für einen miesen Dieb bist du ganz schön vorlaut.{w} In deiner Situation wäre ich lieber etwas ruhiger und kooperativer."
     "Sie klammerte beide Hände um den Besenstiel."
@@ -165,6 +151,3 @@
     "Liz ließ ihn nicht aus den Augen."
     m "Ich warte auf deine Antwort.{w} Wenn du mir erklären kannst, was du hier treibst, dann lasse ich dich gehen."
     j "I-Ich...{w} wollte hier schlafen..."
-
-    
-    nvl clear
