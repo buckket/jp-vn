@@ -129,6 +129,10 @@ init -1 python hide:
 
     # style.window.yminimum = 250
     
+    # NVL window settings
+    
+    style.nvl_window.background = Solid((0,0,0,60))
+    
     style.menu_choice_button.background = "images/ui/menu/grey.png"
     style.menu_choice_button.hover_background = Animation("images/ui/menu/1.png", 0.10,
                                  "images/ui/menu/2.png", 0.10,
