@@ -14,6 +14,14 @@ init:
                         "images/regen/3.png", 0.1,
                         "images/regen/4.png", 0.1)
 
+
+    image bg zimmer_nacht:
+        "images/bg/zimmer_nacht_2.png" with Dissolve(5.0)
+        pause 5.0
+        "images/bg/zimmer_nacht.png" with Dissolve(5.0)
+        pause 5.0
+        repeat
+
     $ trans_diagonal = ImageDissolve("images/effects/trans_diagonal.png", 0.2, 8, reverse=True)
 
     python:
