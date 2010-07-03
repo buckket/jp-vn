@@ -31,6 +31,10 @@ init -1 python hide:
     
     config.automatic_images = [' ','/']
     config.automatic_images_strip = ['images']
+    
+    # Log
+    
+    config.log = "debuglog.txt"
 
     #########################################
     # Layouts
@@ -285,8 +289,19 @@ init -1 python hide:
 
     ## The default text speed in characters per second. 0 is infinite.
 
-    config.default_text_cps = 0
+    config.default_text_cps = 30
 
+    ## Optionsmenü
+    ## Hinzufügen der Optionen für die Textgeschwindigkeit
+    
+    #renpy.log(str(config.preferences['prefs_left'][2].set))
+    config.preferences['prefs_left'][2] = _Preference(u"Text Speed", "text_cps",
+            [ ("Sofort", 0, "True"),
+              ("Schnell", 80, "True"),
+              ("Mittel", 30, "True"),
+              ("Langsam", 10, "True")])
+    
+    
     #########################################
     ## More customizations can go here.
     
