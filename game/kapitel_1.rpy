@@ -24,16 +24,16 @@
     
     "Sie war nicht gerne drinnen."
     "Viel lieber verbrachte sie ihre Zeit in den verwinkelten Gassen der Stadt und auf den zahllosen Trampelpfaden im Wald, immer auf der Suche nach Abenteuern oder Gegenständen, die jemand dort verloren oder weggeworfen hatte."
-    "Es gab für sie nichts spannenderes, als das, was hinter der nächsten Ecke auf sie warten würde, und auch wenn dort nichts war, gab es dort doch immerhin eine weitere Ecke, hinter der etwas neues sein könnte."
+    "Es gab für sie nichts Spannenderes, als das, was hinter der nächsten Ecke auf sie warten würde, und auch wenn dort nichts war, gab es dort doch immerhin eine weitere Ecke, hinter der etwas Neues sein könnte."
     "So dauerten ihre Streifzüge meist bis in den frühen Abend, bevor sie mit einem kaputten Maschinenbauteil, einem alten Buch oder auch nur einem ungewöhnlich aussehenden Stein nach Hause zurückkehrte, und ihre neue Errungenschaft irgendwo in ihrem Zimmer verstaute."
-    "Aber ihr letzter Ausflug war nun beinahe eine Woche her, denn das Wetter war zu dieser Jahreszeit sehr wechselhaft, und obwohl es zwischendurch auch mal sonnig war, musste sie doch zumindest in der Nähe des Hauses bleiben, sollte es plötzlich zu Regnen anfangen."
+    "Aber ihr letzter Ausflug war nun beinahe eine Woche her, denn das Wetter war zu dieser Jahreszeit sehr wechselhaft, und obwohl es zwischendurch auch mal sonnig war, musste sie doch zumindest in der Nähe des Hauses bleiben, sollte es plötzlich zu regnen anfangen."
     
     nvl clear
     
     "Ihrem Onkel war es eigentlich egal, ob sie im Regen draußen herumlief, und es war auch nicht seine Schuld, dass ihr solche Vorschriften gemacht wurden."
     "Er hielt sich nur an die Auflagen, die Liz' Eltern ihm hinterließen, bevor sie ihre Reise antraten und sie hier zurückließen."
-    "Aber das änderte auch nichts daran, dass es nun regnete, und dass Liz sich unglaublich langweilte."
-    "Es gab nicht viel für sie zu tun, in diesem Haus."
+    "Aber das änderte auch nichts daran, dass es nun regnete und dass Liz sich unglaublich langweilte."
+    "Es gab nicht viel für sie zu tun in diesem Haus."
     "Jedes andere Kind in ihrem Alter wäre wahrscheinlich nie auf die Idee gekommen, sich in ihrer Situation zu beschweren, denn sie hatte alles, was sie brauchte und mehr."
     "Verglichen mit den Straßenkindern aus dem Hafenviertel lebte sie wie eine Königin im großen Haus ihres Onkels, das auf einem Hügel etwas abseits der Stadt gelegen war, und das nicht vollständig vom Qualm der Fabrikschornsteine eingehüllt wurde."
     "Aber für sie hatte das keinen Reiz."
@@ -41,7 +41,7 @@
     
     nvl clear
     
-    "Ihr Onkel war nicht grade die Person, die man sich vorstellen würde, wenn man das Haus sah."
+    "Ihr Onkel war nicht gerade die Person, die man sich vorstellen würde, wenn man das Haus sah."
     "Er war dauernd mit seinen merkwürdigen Erfindungen beschäftigt, von denen einige zwar durchaus sinnvoll oder sogar lustig waren, die meisten jedoch eher nutzlos und nur Spielerei, und verbrachte wenig Zeit außerhalb seines Arbeitszimmers."
     "Dort fand man ihn meist an seinem Tisch über irgendeinen Mechanismus gebeugt oder in ein Buch vertieft, und ab und zu schlief er auch dort, wenn er an einer besonders interessanten Erfindung tüftelte."
     
@@ -73,17 +73,17 @@
     "Es musste also irgendetwas anderes sein, aber was?"
     "Ein Kind war auszuschließen."
     "In dieser Stadt gab es zwar viele Kinder, aber die lebten unten in den ärmeren Vierteln und hatten zu dieser Uhrzeit besseres zu tun, als irgendwo im Hinterhof einer Villa herumzugeistern."
-    "Außer vielleicht um etwas zu stehlen."
+    "Außer vielleicht, um etwas zu stehlen."
     
     nvl clear
     
     "Das musste es sein!"
     "Es war ein Dieb, was sonst?"
-    "Liz wusste, dass dies ihre Gelegenheit war, den Dieb zu fangen, und ihrem Onkel zu beweisen, dass sie alt genug war, um auf sich selbst aufzupassen."
+    "Liz wusste, dass dies ihre Gelegenheit war, den Dieb zu fangen und ihrem Onkel zu beweisen, dass sie alt genug war, um auf sich selbst aufzupassen."
     "Doch wie würde sie das anstellen?"
     "Sie war schon an der Hintertür zum Garten, eigentlich der Dienstboteneingang, doch seit ihr Onkel alle Bediensteten entlassen hatte, um seine Ruhe zu haben, hatte ihn niemand außer Liz benutzt, als sie stehen blieb, und sich Gedanken darüber machte, wie sie den Dieb aufhalten würde."
-    "Ein Kind könnte sie eventuell überwältigen, aber was, wenn sie sich in der Größe verschätzt hatte, und es ein Erwachsener war?"
-    "Sie sah sich nach einer Waffe oder etwas, was man als solche benutzen könnte um, und griff nach dem Besen der neben der Tür lehnte."
+    "Ein Kind könnte sie eventuell überwältigen, aber was, wenn sie sich in der Größe verschätzt hatte und es ein Erwachsener war?"
+    "Sie sah sich nach einer Waffe oder etwas, was man als solche benutzen könnte um und griff nach dem Besen, der neben der Tür lehnte."
     "Damit sollte es gehen."
     
     nvl clear
