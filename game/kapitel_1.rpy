@@ -132,6 +132,7 @@
     "Mit der vollen Wucht ihrer Drehung, verstärkt durch die länge ihrer Waffe, schlug der Besenstiel in den Busch ein."
     
     scene bg garten
+    show regen
     with vpunch
     
     "Sie spürte den Widerstand, als ihre improvisierte Waffe gegen etwas hartes stieß, und zog sie zurück, um noch einmal zuzuschlagen, doch sie hielt inne, als sie ein leises Schluchzen vernahm, dass aus dem Busch zu ihr hervordrang."
