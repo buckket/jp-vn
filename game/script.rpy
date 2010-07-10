@@ -2,27 +2,39 @@
 
 init:
 
-    $ m = Character('Liz',color="#c8ffc8")
-    $ j = Character('Junge',color="#c8ffc8")
-    $ narrator = Character(None, kind=nvl)
-    $ q = Character(None, kind=nvl, what_prefix='"',what_suffix='"')
+    # Charaktere
+
+    $ m = Character('Liz',color="#c8ffc8") # Mödchen für Dialogszenen
+    $ j = Character('Junge',color="#c8ffc8") # Junge für Dialogszenen
+    $ narrator = Character(None, kind=nvl) # Erzähler für Dialog und NVL
+    $ q = Character(None, kind=nvl, what_prefix='"',what_suffix='"') # Wörtliche Rede für NVL
     
-    image black = Solid((0,0,0,255))
+    # Bilder, die nicht automatisch geladen werden
     
-    image regen = Animation("images/regen/1.png", 0.1,
+    image black = Solid((0,0,0,255)) # Schwarzer Hintergrund
+    
+    image regen = Animation("images/regen/1.png", 0.1, # Regenanimation
                         "images/regen/2.png", 0.1,
                         "images/regen/3.png", 0.1,
                         "images/regen/4.png", 0.1)
 
 
-    image bg zimmer_nacht:
+    image bg zimmer_nacht: # Zimmer bei Nacht, Animation
         "images/bg/zimmer_nacht_2.png" with Dissolve(5.0)
         pause 5.0
         "images/bg/zimmer_nacht.png" with Dissolve(5.0)
         pause 5.0
         repeat
 
-    $ trans_diagonal = ImageDissolve("images/effects/trans_diagonal.png", 0.2, 8, reverse=True)
+    # Übergänge
+
+    $ trans_diagonal = ImageDissolve("images/effects/trans_diagonal.png", 0.2, 8, reverse=True) # Diagonal
+
+    # Sonstiges
+
+    $ renpy.music.register_channel("ambient", "music", True)
+
+    # Spezielle Funktionen
 
     python:
         #Diese Funktion wechselt den Erzählmodus.
