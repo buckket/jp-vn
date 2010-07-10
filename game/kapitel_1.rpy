@@ -4,10 +4,9 @@
     scene bg zimmer_nacht
     with fade
     
-    $ renpy.pause(1)
+    play ambient "sounds/regen_drinnen.ogg" fadein 1.0
     
-    # Hintergrundmusik
-    # Regentropfen
+    $ renpy.pause(1)
     
     # Los geht's!
     
@@ -93,9 +92,13 @@
     #Regen
     #leises öffnen der Tür als Geräusch
     
+    stop ambient fadeout 1.0
+    
     scene bg garten
     show regen
     with fade
+    
+    play ambient "sounds/regen_draussen.ogg" fadein 1.0
     
     $ renpy.pause(1)
     
