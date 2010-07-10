@@ -86,13 +86,17 @@
     "Damit sollte es gehen."
     
     nvl clear
+
+    stop ambient fadeout 1.0
+    
+    jump kapitel_1_garten
+    
+label kapitel_1_garten:
     
     #Garten
     #mit Übergang von Links nach Rechts
     #Regen
     #leises öffnen der Tür als Geräusch
-    
-    stop ambient fadeout 1.0
     
     scene bg garten
     show regen
@@ -219,3 +223,8 @@
     
     scene black
     with fade
+    
+    jump kapitel_1_drinnen
+    
+label kapitel_1_drinnen:
+    pass
