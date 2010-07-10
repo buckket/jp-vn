@@ -126,6 +126,8 @@
     scene black
     with None
     
+    play sound "sounds/schlag_woosh.ogg"
+    
     show effects strike
     with trans_diagonal
     
@@ -133,6 +135,8 @@
     with dissolve
     
     "Mit der vollen Wucht ihrer Drehung, verstärkt durch die länge ihrer Waffe, schlug der Besenstiel in den Busch ein."
+    
+    play sound "sounds/schlag_treffer.ogg"
     
     scene bg garten
     show regen
