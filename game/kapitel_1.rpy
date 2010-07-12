@@ -221,10 +221,47 @@ label kapitel_1_garten:
     j "Aber.. {w}Das kann ich doch nicht annhemen."
     m "Willst du etwa im Regen schlafen?"
     
+    stop ambient fadeout 1.0
+    
     scene black
     with fade
     
     jump kapitel_1_drinnen
     
 label kapitel_1_drinnen:
-    pass
+    
+    play ambient "sounds/regen_drinnen.ogg" fadein 1.0
+    
+    scene bg zimmer_nacht
+    with fade
+    
+    "Liz hatte sich entschlossen, den fremden Jungen erst mal in ihrem Zimmer einzuquartieren."
+    "Ihr Onkel war zwar eigentlich sehr tollerant, aber er musste ja auch nicht alles wissen, und so beschloss sie, ihm für den Anfang noch nichts zu erzählen."
+    "Der Junge stand mit großen Augen in der Mitte ihres Zimmers und sah sich um."
+    m "Tja, da staunst du, was?"
+    m "All diese Raritäten aufzutreiben war gewiss nicht leicht, und hat mich schon das ein oder andere Mal in Gefahr gebracht."
+    "Liz wollte grade loslegen, und erzählen, woher sie welches Teil hatte, als der Junge sie unterbrach."
+    j "Raritäten?"
+    m "Na meine Sammlung!"
+    m "Die Sachen hier überall!"
+    j "Achso..."
+    "Gelangweilt schaute er umher."
+    m "Beeindrucken die dich denn gar nicht?"
+    j "Beeindrucken? {w}Wieso?"
+    j "Das ist doch alles nur Müll, oder nicht?"
+    j "Ich wunderte mich nur, weil das Zimmer gar nicht wie ein Mädchenzimmer aussieht."
+    j "Eher wie eine zu groß geratene Abstellkammer."
+    "Hatte sie sich verhört, oder hatte er ihre Sammlung eben als Müll bezeichnet?"
+    "Ihre wertvollen Schätze, die sie auf so vielen Streifzügen gesammelt hatte, hielt er für Müll?"
+    m "Mein Zimmer ist doch keine Abstellkammer!"
+    m "Das ist kein Müll!"
+    m "Glaubst du du kannst dir alles erlauben?"
+    m "Immerhin bist du mein Gast! {w}...ich kann dich auch jederzeit wieder rauswerfen, wenn du draußen schlafen willst?"
+    "Der Junge schluckte."
+    j "Naja... {w}einige Dinge sind vielleicht doch ganz interessant."
+    m "Achja? {w}Plötzlich?"
+    j "Ich hab nicht so genau hingeschaut."
+    # Er zeigt auf irgendetwas und sie erklärt ihm, was es ist.
+    # Dann gehen sie schlafen
+    # oder vielleicht schläft er einfach ein
+    # keine ahnung
