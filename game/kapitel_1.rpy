@@ -124,7 +124,7 @@ label kapitel_1_garten:
     "Ihren geplanten Überraschungsangriff wollte sie grade vergessen, als ihr eine Idee kam."
     m "War wohl doch nur irgendein Tier."
     "Sie sprach absichtlich laut und deutlich, als sie den Weg zurück ins Haus antrat."
-    "Die länge des Besens und ihre Entfernung zum Busch abschätzend, machte sie drei Schritte in Richtung des Hauses."
+    "Die Länge des Besens und ihre Entfernung zum Busch abschätzend, machte sie drei Schritte in Richtung des Hauses."
     "Anstatt einen vierten Schritt zu machen, wirbelte sie, ihre gesamte, durch die Bewegung aufgebaute, Körperspannung entladen, und den Besen mit einer Hand am äußersten Ende fassend, herum."
     
     scene black
@@ -315,6 +315,63 @@ label kapitel_1_drinnen:
     j "Dachte ich es mir doch."
     j "Du weißt nicht mehr, woher du sie hast."
     j "Du sammelst also doch nutzlosen Schrott!"
-    # jetzt erzählt sie ihm die geschichte, dabei schläft er ein
-    # sie deckt ihn zu und legt sich woanders schlafen
-    # ende kapitel 1
+    "Jetzt war es genug."
+    "Wütend sah Liz den Jungen an."
+    m "Na dann spitz mal die Ohren!"
+    j "Ich bin schon gespannt!"
+    m "Also welche Geschichte willst du nun hören?"
+    m "Wenn du mir das nicht sagst, kann ich sie dir auch nicht erzählen."
+    j "Oh... ja."
+    j "Welche ist denn spannender?"
+    "Liz dachte kurz nach."
+    m "Also dann, hör gut zu!"
+
+label kapitel_1_geschichte:
+
+    stop ambient fadeout 1.0
+
+    scene black
+    with fade
+    
+    # Hier erzählt sie die Geschichte, die wohl recht unspannend wird
+    # die sie aber übertreibt um sich zu rechtfertigen.
+    # Etwa sowas wie: Sie war unterwegs und traf auf eine Katze.
+    # Sie mag Kätzchen und rannte ihr hinterher, ohne darauf zu achten wohin.
+    # Plötzlich rutschte sie ab und fand sich in einem unterirdischen Gewölbe wieder
+    # was sie für eine alte Grabkammer hält. Nachdem sie dort eine Weile herumgeklettert ist,
+    # wird sie von jemandem entdeckt und rausgeworfen, denn sie ist im Keller einer Fabrik
+    # gelandet. Da sie wenigstens irgendwas als Andenken wollte, hat sie halt die Mutter
+    # mitgenommen die da lag, oder so.
+    # Kein Wunder, dass der Junge da einschläft...
+
+    jump kapitel_1_schlaf
+    
+label kapitel_1_schlaf:
+
+    play ambient "sounds/regen_drinnen.ogg" fadein 1.0
+    
+    scene bg zimmer_nacht
+    with fade
+
+    m "...und so kam das." #ändern
+    "Als Liz ihre Geschichte fertig erzählt hatte, schaute sie erwartungsvoll in Richtung des Jungen."
+    m "Und, war das jetzt spannend oder..."
+    "Der Junge lag zusammengekauert auf ihrem Bett und schnarchte zufrieden."
+    m "Hey, was fällt dir ein während meiner Geschichte einzuschlafen!?"
+    m "Ich rede mit dir! {w}Aufwachen!"
+    "Liz wollte ihn schütteln, doch verwarf den Gedanken wieder."
+    "Stattdessen packte sie ihr Kästchen wieder zusammen und stellte es auf den Schrank, bevor sie sich wieder zum Jungen drehte."
+    m "Woher er wohl kommt?"
+    m "Was macht er hier?"
+    "Ein Junge in ihrem Alter irrt nachts im Regen in ihren Garten und möchte im Gebüsch übernachten."
+    "So sehr sie auch nachdachte, ihr fiel nicht ein, wie man auf solche Ideen kommen könnte."
+    "Insgesamt wusste sie viel zu wenig über den Jungen."
+    "Sie kannte ja nicht einmal seinen Namen."
+    "Die ganze Sache kam ihr mehr als nur verdächtig vor."
+    "Aber das war ihr egal, denn sie dachte an etwas ganz anderes."
+    "Viel zu lange hatte sie schon zuhause bleiben müssen."
+    "So eine offensichtlich Gelegenheit für ein Abenteuer würde sie sich nicht entgehen lassen."
+    "Morgen musste sie auf jeden Fall mehr über ihn herausfinden, aber jetzt war sie dafür zu müde."
+    "Sie deckte den Jungen noch zu, und machte sich dann auf den Weg, einen anderen Schlafplatz zu finden."
+    # Ende Kapitel 1
+    jump kapitel_2
