@@ -13,6 +13,8 @@
     
     $ setMode("nvl")
     
+    nvl clear
+    
     "Als Liz die Augen öffnete, fand sie sich zu ihrer Überraschung im Esszimmer wieder."
     "Ihre Verwunderung über den ungewohnten Schlafplatz auf dem kleinen Sofa verschwand jedoch schnell, als ihr die Geschehnisse des gestrigen Abends wieder ins Gedächtnis schossen."
     "Nachdem der merkwürdige Junge in ihrem Bett eingeschlafen war, hatte sie sich eine der Ersatzbettdecken geholt, und es sich auf dem Sofa bequem gemacht."

@@ -413,7 +413,7 @@ label kapitel_1_flashback:
     
     q "Pass auf, mein Junge. {w}Du musst jetzt genau tun, was ich dir sage."
     "Der Junge verstand nicht, aber er nickte."
-    q "Du musst wirklich gut zuhören. {w}Ich werde dir jetzt etwas geben, das du niemals verlieren darfst. {w}Du darfst es auch nicht irgendwem geben, egal was e sagt, verstanden?"
+    q "Du musst wirklich gut zuhören. {w}Ich werde dir jetzt etwas geben, das du niemals verlieren darfst. {w}Du darfst es auch nicht irgendwem geben, egal was er sagt, verstanden?"
     "Aus seiner Tasche holte der Mann <schlüssel> und gab es dem Jungen."
     q "Es wird vielleicht Leute geben, die daran interessiert sind, aber egal was passiert, du darfst es niemals weggeben, verstehst du das?"
     "Der Junge betrachtete <schlüssel> und nickte dann."
