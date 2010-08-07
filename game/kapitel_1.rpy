@@ -374,4 +374,58 @@ label kapitel_1_schlaf:
     "Morgen musste sie auf jeden Fall mehr über ihn herausfinden, aber jetzt war sie dafür zu müde."
     "Sie deckte den Jungen noch zu, und machte sich dann auf den Weg, einen anderen Schlafplatz zu finden."
     # Ende Kapitel 1
+    
+    stop ambient fadeout 1.0
+    
+    scene black
+    with fade
+    
+    jump kapitel_1_flashback
+    
+label kapitel_1_flashback:
+    
+    $ setMode("nvl")
+    
+    "Ein lautes Klopfen an der Tür."
+    q "Wir wissen, dass Sie da sind. {w}Öffnen Sie die Tür und lassen Sie uns reden."
+    "Die rauhe Frauenstimme sprach in einem übertrieben freundlichen Ton, doch niemand öffnete."
+    q "<name des Uhrmachers>. Öffnen Sie die Tür."
+    "Noch immer drang kein Laut aus dem Haus hervor."
+    q "Wenn Sie nicht öffnen, werden wir uns selbst Zutritt verschaffen müssen."
+    "Ein dumpfes Poltern erschütterte das Haus."
+    q "Müssen wir das jetzt wirklich bis zum Ende durchziehen?"
+    "Noch einmal polterte es."
+    q "Ich bitte Sie, <name des Uhrmachers>. {w}Das ist doch nun wirklich unter unser beider Niveau."
+    "Ein weiteres Poltern."
+    
+    nvl clear
+    
+    "Auf der anderen Seite der Tür saß ein alter Mann auf einer Treppe."
+    "Das Gesicht in seine Hände vergraben saß er dort und reagierte nicht auf die Geräusche von draußen."
+    "Man sah ihm an, dass er fieberhaft nachdachte."
+    q "<name des Uhrmachers>?"
+    "Ein Junge stand neben ihm und sah ihn besorgt an."
+    q "Wollen Sie nicht aufmachen?"
+    "Der Mann hob den Kopf und sein Gesicht verzog sich zu einer ernsten, starren Miene."
+    "Er legte die Hand auf die Schulter des Jungen."
+    
+    nvl clear
+    
+    q "Pass auf, mein Junge. {w}Du musst jetzt genau tun, was ich dir sage."
+    "Der Junge verstand nicht, aber er nickte."
+    q "Du musst wirklich gut zuhören. {w}Ich werde dir jetzt etwas geben, das du niemals verlieren darfst. {w}Du darfst es auch nicht irgendwem geben, egal was e sagt, verstanden?"
+    "Aus seiner Tasche holte der Mann <schlüssel> und gab es dem Jungen."
+    q "Es wird vielleicht Leute geben, die daran interessiert sind, aber egal was passiert, du darfst es niemals weggeben, verstehst du das?"
+    "Der Junge betrachtete <schlüssel> und nickte dann."
+    
+    nvl clear
+    
+    q "Gut. {w}Und jetzt lauf. {w}Ich werde dir ein wenig Zeit verschaffen."
+    "Der Junge sah den Mann verwundert an und wollte etwas erwidern, doch er kam nicht dazu."
+    q "Los, durch den Hinterausgang!"
+    "Und so rannte der Junge allein in die Nacht hinaus."
+    
+    scene black
+    with fade
+    
     jump kapitel_2
