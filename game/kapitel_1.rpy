@@ -378,7 +378,7 @@ label kapitel_1_schlaf:
     stop ambient fadeout 1.0
     
     scene black
-    with fade
+    with slow_fade
     
     jump kapitel_1_flashback
     

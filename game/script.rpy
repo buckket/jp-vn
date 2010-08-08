@@ -28,6 +28,7 @@ init:
 
     # Übergänge
 
+    $ slow_fade = Fade(2.0,0.0,1.0)
     $ trans_diagonal = ImageDissolve("images/effects/trans_diagonal.png", 0.2, 8, reverse=True) # Diagonal
 
     # Sonstiges
