@@ -102,7 +102,7 @@ label kapitel_1_garten:
     show regen
     with fade
     
-    play ambient "sounds/regen_draussen.ogg" fadein 1.0
+    play ambient "sounds/regen_draussen.mp3" fadein 1.0
     
     $ renpy.pause(1)
     
