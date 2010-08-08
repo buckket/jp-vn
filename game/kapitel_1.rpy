@@ -379,7 +379,7 @@ label kapitel_1_schlaf:
     
     show cogwheel_trans
     with None
-    $ renpy.pause(1.0)
+    $ renpy.pause(2.0, hard=True)
     
     scene black
     with None

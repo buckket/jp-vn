@@ -41,12 +41,12 @@ init:
         contains:
             contains cogwheel
             xanchor 0.5 xpos -0.5 yanchor 0.5 ypos 0.5
-            linear 1.0 xpos 0.5
+            linear 2.0 xpos 0.5
             
         contains:
             contains cogwheel
             xanchor 0.5 xpos 1.5 yanchor 0.5 ypos 0.5
-            linear 1.0 xpos 0.5
+            linear 2.0 xpos 0.5
 
     # Sonstiges
 
