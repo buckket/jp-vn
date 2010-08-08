@@ -4,7 +4,7 @@
     scene bg zimmer_nacht
     with fade
     
-    play ambient "sounds/regen_drinnen.ogg" fadein 1.0
+    play ambient "sounds/regen_drinnen.mp3" fadein 1.0
     
     $ renpy.pause(1)
     
@@ -230,7 +230,7 @@ label kapitel_1_garten:
     
 label kapitel_1_drinnen:
     
-    play ambient "sounds/regen_drinnen.ogg" fadein 1.0
+    play ambient "sounds/regen_drinnen.mp3" fadein 1.0
     
     scene bg zimmer_nacht
     with fade
@@ -348,7 +348,7 @@ label kapitel_1_geschichte:
     
 label kapitel_1_schlaf:
 
-    play ambient "sounds/regen_drinnen.ogg" fadein 1.0
+    play ambient "sounds/regen_drinnen.mp3" fadein 1.0
     
     scene bg zimmer_nacht
     with fade
