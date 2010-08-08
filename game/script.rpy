@@ -30,6 +30,23 @@ init:
 
     $ slow_fade = Fade(2.0,0.0,1.0)
     $ trans_diagonal = ImageDissolve("images/effects/trans_diagonal.png", 0.2, 8, reverse=True) # Diagonal
+    #Nicht wirklich ein Übergang, wird aber via show als solcher genutzt
+    transform cogwheel:
+        "images/effects/cogwheel.png"
+        zoom 1.5
+        linear 3.0 rotate 360
+        repeat
+
+    image cogwheel_trans:
+        contains:
+            contains cogwheel
+            xanchor 0.5 xpos -0.5 yanchor 0.5 ypos 0.5
+            linear 1.0 xpos 0.5
+            
+        contains:
+            contains cogwheel
+            xanchor 0.5 xpos 1.5 yanchor 0.5 ypos 0.5
+            linear 1.0 xpos 0.5
 
     # Sonstiges
 

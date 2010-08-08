@@ -377,8 +377,14 @@ label kapitel_1_schlaf:
     
     stop ambient fadeout 1.0
     
+    show cogwheel_trans
+    with None
+    $ renpy.pause(1.0)
+    
     scene black
-    with slow_fade
+    with None
+    
+    $ renpy.pause(2.0)
     
     jump kapitel_1_flashback
     

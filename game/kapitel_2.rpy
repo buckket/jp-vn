@@ -25,3 +25,7 @@
     "Sich den Schlaf aus den Augen reibend stand sie auf, faltete die Decke zusammen und legte sie über das Sofa. {w}Wegräumen würde sie sie später."
     "Ob der Junge inzwischen wach war?"
     "Liz beschloss, nachschauen zu gehen."
+    
+    nvl clear
+    
+    
