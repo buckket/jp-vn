@@ -6,6 +6,7 @@ init:
 
     $ m = Character('Liz',color="#c8ffc8") # Mödchen für Dialogszenen
     $ j = Character('Junge',color="#c8ffc8") # Junge für Dialogszenen
+    $ o = Character('Onkel',color="#bbbbbb") # Onkel für Dialogszenen
     $ narrator = Character(None, kind=nvl) # Erzähler für Dialog und NVL
     $ q = Character(None, kind=nvl, what_prefix='"',what_suffix='"') # Wörtliche Rede für NVL
     
