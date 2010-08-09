@@ -70,6 +70,9 @@ label kapitel_2_onkel:
     
     $ setMode("normal")
     
+    scene bg arbeitszimmer
+    with fade
+    
     "Als Liz das Arbeitszimmer ihres Onkels betrat, drang ihr ein stechender Geruch in die Nase und sie musste husten."
     m "Was stinkt denn hier so?"
     o "Ah, Liz! {w}Komm doch runter!"
