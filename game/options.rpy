@@ -181,6 +181,10 @@ init -1 python hide:
     ## The default size of text.
 
     # style.default.size = 22
+    
+    ## The drop shadow.
+    
+    style.default.drop_shadow = (2,2)
 
     ## Note that these only change the size of some of the text. Other
     ## buttons have their own styles.
