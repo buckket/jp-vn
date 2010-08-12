@@ -18,7 +18,7 @@
     "Als Liz die Augen öffnete, fand sie sich zu ihrer Überraschung im Esszimmer wieder."
     "Ihre Verwunderung über den ungewohnten Schlafplatz auf dem kleinen Sofa verschwand jedoch schnell, als ihr die Geschehnisse des gestrigen Abends wieder ins Gedächtnis schossen."
     "Nachdem der merkwürdige Junge in ihrem Bett eingeschlafen war, hatte sie sich eine der Ersatzbettdecken geholt, und es sich auf dem Sofa bequem gemacht."
-    "Sie hatte kurz überlegt, die Nacht in eine, der Gästeschlafzimmer zu verbringen, verwarf den Gedanken jedoch wieder, da sie sich nicht daran erinnern konnte, wann dort zuletzt saubergemacht worden war."
+    "Sie hatte kurz überlegt, die Nacht in einem der Gästeschlafzimmer zu verbringen, verwarf den Gedanken jedoch wieder, da sie sich nicht daran erinnern konnte, wann dort zuletzt saubergemacht worden war."
     
     nvl clear
     
@@ -42,7 +42,7 @@
     
     nvl clear
     
-    "Sie schaute in allen Ecken unten Kanten, hinter alles, wohinter man sich hätte verstecken können und unters Bett."
+    "Sie schaute in allen Ecken, hinter alles, wohinter man sich hätte verstecken können und unters Bett."
     "Tatsächlich gab es nicht viele Orte, die als Versteck geeignet waren in diesem Zimmer."
     q "Gut, dann bin ich hier wohl fertig. {w}Jetzt noch 12 andere Zimmer."
     
@@ -81,7 +81,7 @@ label kapitel_2_onkel:
     "Sie schaute angewidert nach der Quelle des Gestanks, während sie die kleine Wendeltreppe hinunterstieg, die zur unteren Ebene führte."
     o "Das weißt du doch ganz genau, junges Fräulein!"
     o "Tu mal nicht so unschuldig!"
-    "Liz ignorierte die merkwürdigen Bemerkungen ihres Onkels und konzentrierte ihren Blick auf den zerbrochenen Glasbecher auf dem Boden, aus dem sich eine schwarze Substanz über den Boden ergoss, die die Quelle des Gestanks zu sein schien."
+    "Liz ignorierte die merkwürdigen Bemerkungen ihres Onkels und konzentrierte ihren Blick auf den zerbrochenen Glasbecher der unter dem Tisch lag, und aus dem sich eine schwarze Substanz über den Boden ergoss, die die Quelle des Gestanks zu sein schien."
     m "Was auch immer."
     "Sie war nicht hier um sich jetzt mit ihrem verwirrten Onkel zu beschäftigen."
     "Sie musste den Jungen finden."
