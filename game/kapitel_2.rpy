@@ -120,3 +120,49 @@ label kapitel_2_onkel:
     
     scene black
     with fade
+    
+    jump kapitel_2_stadt
+    
+label kapitel_2_stadt:
+
+    $ setMode("nvl")
+    
+    # Hintergrund Stadt, evtl. eine Art Marktplatz mit Häusern drumherum und
+    # einem Brunnen in der Mitte, der über eine große Pumpe läuft.
+    # Vielleicht auch dampfbetriebene Autos bzw. Kutschen oder ähnliches.
+    
+    "Nach ungefähr zwanzig Minuten war Liz auf dem Marktplatz angekommen. {w}Hier, hatte sie sich entschieden, würde sie ihre Suche beginnen."
+    "Doch wie stellte man sowas an?"
+    "Bisher war sie nie wirklich auf der Suche nach etwas oder jemandem bestimmten gewesen, sondern ist einfach nur ziellos durch die Stadt gelaufen."
+    "Irgendwie schien es ihr, als würde das nicht funktionieren, wenn man einen Jungen sucht."
+    "Aber was dann?"
+    "Die Stadt systematisch zu durchkämmen kam überhaupt nicht in Frage. {w}Das würde viel zu lange dauern und würde auch nicht garantieren, dass sie den Jungen findet."
+    "Sie brauchte also einen Anhaltspunkt. {w}Einen Ort, an dem sie anfangen könnte zu suchen."
+    
+    nvl clear
+    
+    q "Ich habs, ich frage einfach jemanden, ob der ihn gesehen hat!"
+    "Ein fremder Junge wird ja wohl recht auffällig sein, für die Leute, die jeden Tag hier unterwegs waren, also wird ihn schon jemand gesehen haben."
+    "Liz sah sich nach Leuten um, die sie fragen könnte, als ihr ein älterer, gut gekleideter Herr auffiel."
+    q "Den werde ich fragen!"
+    
+    nvl clear
+    
+    $ setMode("normal")
+    
+    #bild von liz und typ
+    
+    m "Entschuldigen Sie..."
+    "Mann" "Hm...? {w}Oh!"
+    "Mann" "Was kann ich für dich tun, junge Dame?"
+    "Sie erinnerte sich daran, ihn schon einmal gesehen zu haben, war sich aber nicht sicher wo und unter welchen Umständen."
+    "Sie wurde ein wenig nervös als sie daran dachte, dass ein Großteil der Stadtbewohner sie wegen ihrer Streifzüge auf fremden Grundstücken nicht besonders mochten."
+    "Anscheinend hatte dieser Herr jedoch noch nicht ihre Bekanntschaft gemacht, und war sehr freundlich."
+    m "Ich hätte da eine Frage..."
+    "Mann" "Und zwar?"
+    m "Haben Sie vielleicht einen Jungen hier vorbeikommen sehen, der ungefähr in meinem Alter war?"
+    "Mann" "Einen Jungen...?"
+    "Der Mann legte die Stirn in Falten und dachte angestrengt nach."
+    "Mann" "Also ich war den ganzen Morgen hier, weil ich auf einen Bekannten aus <Name der Nachbarstadt> warte, aber einen Jungen habe ich nicht gesehen."
+    "Mann" "Ich glaube nicht, dass hier einer vorbeigekommen ist."
+    with fade    
