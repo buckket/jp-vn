@@ -42,8 +42,7 @@
     
     nvl clear
     
-
-   "Sie schaute in allen Ecken, hinter alles, wohinter man sich hätte verstecken können und unters Bett."
+    "Sie schaute in allen Ecken, hinter alles, wohinter man sich hätte verstecken können und unters Bett."
     "Tatsächlich gab es nicht viele Orte, die als Versteck geeignet waren in diesem Zimmer."
     q "Gut, dann bin ich hier wohl fertig. {w}Jetzt noch 12 andere Zimmer."
     
@@ -83,8 +82,7 @@ label kapitel_2_onkel:
     o "Das weißt du doch ganz genau, junges Fräulein!"
     o "Tu mal nicht so unschuldig!"
     "Liz ignorierte die merkwürdigen Bemerkungen ihres Onkels und konzentrierte ihren Blick auf den zerbrochenen Glasbecher der unter dem Tisch lag, und aus dem sich eine schwarze Substanz über den Boden ergoss, die die Quelle des Gestanks zu sein schien."
-
-   m "Was auch immer."
+    m "Was auch immer."
     "Sie war nicht hier um sich jetzt mit ihrem verwirrten Onkel zu beschäftigen."
     "Sie musste den Jungen finden."
     o "Wenn du schon mal wieder hier bist, kannst du die Sauerei auch aufwischen. {w}Da in der Ecke sind Putzeimer und Lappen!"
@@ -167,4 +165,4 @@ label kapitel_2_stadt:
     "Der Mann legte die Stirn in Falten und dachte angestrengt nach."
     "Mann" "Also ich war den ganzen Morgen hier, weil ich auf einen Bekannten aus <Name der Nachbarstadt> warte, aber einen Jungen habe ich nicht gesehen."
     "Mann" "Ich glaube nicht, dass hier einer vorbeigekommen ist."
-    with fade
+    #with fade
