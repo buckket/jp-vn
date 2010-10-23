@@ -133,7 +133,10 @@ label kapitel_2_stadt:
     
     # ^ Scheiß auf das. Ich mach nur den Brunnen, das geht schneller. 9_9
     
-    "Nach ungefähr zwanzig Minuten war Liz auf dem Marktplatz angekommen. {w}Hier, hatte sie sich entschieden, würde sie ihre Suche beginnen."
+    "Nach ungefähr zwanzig Minuten war Liz auf dem Marktplatz angekommen."
+    "Umringt von prunkvollen Häusern, die die Verwaltungsstellen der größeren Handelsunternehmen in dieser Stadt beinhalteten, stand in der Mitte des Platzes ein großer Brunnen."
+    "Er war das einzige, was man hier als eine Art Sehenswürdigkeit bezeichnen konnte und wurde von einer unterirdischen Pumpe mit Wasser versorgt, die Liz' Onkel vor einigen Jahren für den damaligen Bürgermeister gebaut hatte."
+    "Hier, hatte sie sich entschieden, würde sie ihre Suche beginnen."
     "Doch wie stellte man sowas an?"
     "Bisher war sie nie wirklich auf der Suche nach etwas oder jemandem bestimmten gewesen, sondern ist einfach nur ziellos durch die Stadt gelaufen."
     "Irgendwie schien es ihr, als würde das nicht funktionieren, wenn man einen Jungen sucht."
@@ -177,7 +180,34 @@ label kapitel_2_stadt_mann:
     m "Oh... verstehe."
     "Enttäuscht wandte sie sich ab."
     m "Trotzdem vielen Dank."
-    #weg mit dem typen
+
+    $ setMode("nvl")
+
+    "Sie war wieder da, wo sie angefangen hatte und keinen Schritt weiter."
+    "Oder war sie in Wirklichkeit sogar noch weiter von ihrem Ziel entfernt als vorher?"
+    "Sie wusste ja gar nicht, ob der Junge wirklich in die Stadt gelaufen war."
+    "Ihr Onkel war zwar sehr intelligent, aber auch oft verwirrt und abgelenkt."
+    "Konnte sie sich auf seine Aussage verlassen oder war sie auf dem völlig falschen Weg?"
+    "Ob sie den Jungen überhaupt finden würde...?"
+    
+    nvl clear
+    
+    "Liz setze sich an den Brunnen und überlegte, was als nächstes zu tun sei."
+    "Sie hatte keine Anhaltspunkte oder Hinweise, und einfach so loszulaufen, ohne zu wissen wohin, würde wenig Sinn ergeben."
+    "Warum war sie eigentlich hinter diesem Jungen her?"
+    "Es war ja nicht so, als müsste sie ihn unbedingt finden."
+    "Vielleicht sollte sie einfach aufgeben. {w}Aber nach Hause gehen wollte sie noch nicht."
+    "Die letzte Woche war sie fast dauerhaft drinnen gewesen, das war genug."
+    
+    nvl clear
+    
+    "Damit war es entschieden!"
+    "Sie würde einfach ein wenig in der Stadt umherstreifen, so wie sonst auch."
+    "Schließlich gab es keinen Grund, irgendetwas anders zu machen als sonst und es war wesentlich besser, als irgendwie herumzusitzen und zu warten, bis etwas passierte."
+    "Im Idealfall traf sie den Jungen vielleicht sogar irgendwo. {w}Und wenn nicht, war das auch egal."
+    "Irgendeine Beschäftigung würde sie schon finden."
+    "Sie entschied sich, die Straße zum Hafen zu nehmen. {w}Dort war sie schon lange nicht mehr und es war immer irgendetwas los."
+    
     jump kapitel_2_stadt_zum_hafen
 
 label kapitel_2_stadt_suchen:
@@ -212,6 +242,8 @@ label kapitel_2_stadt_suchen:
     "Vielleicht ihre letzte Chance."
     "Sie sprang auf und rannte in Richtung der Straße, in die der Junge verschwunden war."
     
+    #irgendwie fehlt hier etwas
+    
     #wusch! Bild von der Straße
     
     nvl clear
@@ -220,30 +252,44 @@ label kapitel_2_stadt_suchen:
     "Er war weg."
     "Dabei war sie sich so sicher."
     "Sie hatte gehofft, dass sie ihn wenigstens hinter der nächsten Ecke verschwinden sehen würde, aber er war wie vom Erdboden verschluckt."
-    "War ihre letzte Chance damit verschwunden?"
-    "Oder gab es sie überhaupt nicht?"
-    "Sie hatte sich sicher nur eingebildet, ihn gesehen zu haben."
+    "War ihre letzte Chance damit verschwunden?{w} Oder hatte sie sich vielleicht nur eingebildet, ihn gesehen zu haben?"
     "Zumindest zog sie das in Betracht, und es erschien ihr immer wahrscheinlicher, je mehr sie darüber nachdachte."
     "Vielleicht sollte sie einfach nach Hause zurückgehen und den Jungen vergessen."
     "Sie kannte ihn ja nicht einmal richtig."
+    "Noch einmal schaute sie die Straße hinunter, in der Hoffnung, ihn doch um irgendeine Ecke biegen zu sehen, doch es war vergebens."
     
-    #hier gehts später weiter, und zwar so dass sie zurückgeht zum brunnen, überlegt
-    #dann feststelt, dass die straße ja doch nur eine richtung hatte, sofort hinrennt
-    #und über ihre eigene dummheit gesichtspalmiert
-    #dort wird sie dann von ihrem zukunfts-ich zum hafen geschickt und so...
-    # v das da unten muss ich dann noch irgendwie fixen...
+    nvl clear
     
+    #zurück zum platz~
+    "Wieder am Marktplatz angekommen war sie nicht weiter als vorher."
+    "Vielleicht war sie auch in Wirklichleit nie vorwärtsgekommen."
+    "Sie wusste ja nicht einmal, ob der Junge tatsächlich in der Stadt unterwegs war."
+    "Ihr Onkel hatte es ihr zwar gesagt, aber ob sie sich bei sowas auf ihn verlassen konnte?"
+    "Eigentlich hatte er das überhaupt nicht gesagt. {w}Es war nur ihre Schlussfolgerung gewesen."
+    "Könnte es sein, dass sie in die völlig falsche Richtung dachte?"
+    "Was wenn der Junge noch bei ihr zuhause war? {w}Oder inzwischen schon auf dem Weg in die nächste Stadt?"
+    
+    nvl clear
+    
+    "Sie setzte sich wieder an den Brunnen und versuchte ihre Gedanken zu ordnen."
+    "Angenommen, dass sie den Jungen eben wirklich gesehen hatte... {w}war das dann nicht ihr bester Ansatzpunkt?"
+    "Selbst wenn sie sich das nur eingebildet hatte, oder es jemand war, der ihm ähnlich sah. {w}Viele andere Optionen hatte sie nicht."
+    "Wenn sie davon ausging, dass er es wirklich war, wusste sie immerhin in welche Richtung sie gehen sollte."
+    "Es war auch nicht so, als hätte sie etwas besseres zu tun. {w}Immerhin würde sie sonst auch nur planlos in der Stadt herumlaufen, bis etwas spannendes passierte."
+    "Warum sollte sie jetzt etwas anderes tun? {w}Nur weil so ein komischer Junge in ihrem Garten war?"
+    "Bestimmt nicht! {w}Wahrscheinlich war er sowieso nur ein wenig verrückt und nicht im geringsten in irgendetwas verstrickt, was man ein Abenteuer nennen könnte."
+    "Langweilig."
+    
+    nvl clear
+    
+    "Trotzdem entschied sie sich, in die Richtung zu gehen, in der sie ihn gesehen hatte. {w}Schaden konnte es ja nicht."
+    "Vielleicht würde sie ihn zufällig finden. {w}Vielleicht auch nicht. {w}Völlig egal."
+    "Wenn sie sich recht erinnerte, führte die Straße runter zum Hafen. {w}Da war sie sowieso lange nicht mehr gewesen."
+
     jump kapitel_2_stadt_zum_hafen
     
 label kapitel_2_stadt_zum_hafen:
 
-    $ setMode("nvl")
+    nvl clear
 
-    "Sie war wieder da, wo sie angefangen hatte und keinen Schritt weiter."
-    "Oder war sie in Wirklichkeit sogar noch weiter von ihrem Ziel entfernt als vorher?"
-    "Sie wusste ja gar nicht, ob der Junge wirklich in die Stadt gelaufen war."
-    "Ihr Onkel war zwar sehr intelligent, aber auch oft verwirrt und abgelenkt."
-    "Konnte sie sich auf seine Aussage verlassen oder war sie auf dem völlig falschen Weg?"
-    "Ob sie den Jungen überhaupt finden würde...?"
-    
     #with fade
